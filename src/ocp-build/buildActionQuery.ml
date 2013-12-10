@@ -143,7 +143,7 @@ let action () =
 
 let subcommand = {
   sub_name = "query";
-  sub_help =  "Install the project.";
+  sub_help =  "Query information about environment.";
   sub_arg_list = arg_list;
   sub_arg_anon = None;
   sub_arg_usage = [ "Query information about environment."; ];
