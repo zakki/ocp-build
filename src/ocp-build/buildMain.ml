@@ -77,6 +77,7 @@ let subcommands =  [
 let default_subcommand = {
   BuildActionBuild.subcommand with
   sub_name = "[SUBCOMMAND]";
+  sub_arg_list = BuildArgs.arg_list;
   sub_arg_usage = [
     "Build command for OCaml projects";
     "";
